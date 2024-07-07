@@ -312,3 +312,104 @@ margin-bottom: 20px;
     padding-top: 80px;
     
 }
+/* grid layout */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* border: 2px solid black;     */
+}
+.div-4 p{
+    font-family: 'Inter';
+    color: red;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    /* padding-left: 10px; */
+    padding-top: 20px;
+}
+.div-4 h4{
+    font-family: 'Merriweather';
+font-size: 48px;
+font-weight: 900;
+color: black;
+margin-bottom: 20px;
+/* padding-left: 10px; */
+}
+/* grid box */
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.item img{
+    width: 424px;
+    height: 450px;
+}
+.newsletter h4{
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+}
+
+.newsletter{
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 90px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 50px;
+}
+.newsletter p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.join{
+    padding: 15px;
+}
+
+/* footer */
+.footer{
+    width: 1520px;
+    height: 609px;
+    margin-top: 100px;
+    background: rgb(7, 2, 17);
+    padding: 40px;
+    
+    
+}
+.icons{
+    display: flex;
+}
+ h5{
+    color: white;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.footer-container{
+    width: 1185px;
+height: 80px;
+display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
