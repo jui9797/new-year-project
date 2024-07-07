@@ -158,3 +158,157 @@ margin-left: 80px;
     height: 464.65px;
     
 }
+/* park hotel */
+.park-hotel{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 150px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.park-p{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 10px;
+}
+.park-hotel p{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    color: black; 
+    margin-bottom: 10px;  
+}
+
+/* comming soon */
+.coming-soon{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.div-1{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+
+}
+.div-1 p{
+    font-family: 'Inter';
+    color: red;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.div-1 h4{
+    font-family: 'Merriweather';
+font-size: 48px;
+font-weight: 900;
+color: black;
+margin-bottom: 20px;
+}
+.small{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400; 
+    margin-top: 20px;   
+}
+
+.div-2{
+    width: 440px; 
+    
+    /* border: 2px solid black; */
+}
+.div-2 img{
+    border: 10px solid red;
+    padding: 25px;
+    border-radius:50%;
+    
+}
+
+.div-3{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+.div-3 img{
+    margin-top: 25px;
+    width: 140px;
+    height: 140px;
+}
+.div-3 h4{
+    color: rgb(255, 0, 0);
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700; 
+    margin-bottom: 15px;   
+}
+/* holiday */
+.holiday{
+    width: 1068px;
+    height: 260px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* border: 2px solid black; */
+    text-align: center;   
+}
+.holiday p{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Inter';
+}
+.holiday h1{
+    font-size: 62px;
+    font-weight: 900;
+    font-family: 'Merriweather';
+    color: black;
+    margin-top: 20px;
+}
+#holiday{
+    color: red;
+}
+#lorem{
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 30px;
+    font-style: 10px;
+    font-family: 'Inter';
+}
+.holiday-box{
+    width: 1320px;
+    height: 662px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    
+}
+.box-1{
+    width: 60%;
+    /* border: 2px solid black; */
+}
+.box-1 img{
+  width:700px;
+} 
+.box-2{
+    width: 40%;
+    /* border: 2px solid black; */
+    padding-left: 150px;
+    padding-top: 80px;
+    
+}
