@@ -374,10 +374,28 @@ margin-bottom: 20px;
     margin-bottom: 30px;
 }
 
-
+/* join button +input  */
 .join{
     padding: 15px;
 }
+.join-input{
+    padding: 15px;
+    border-radius:  50px 0 0 50px ;
+    position: relative;
+    left: 10px;
+    border: none;
+}
+.join-btn{
+    padding: 15px;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    left: -10px;
+    color: white;
+    background: rgb(255, 0, 0);
+    border: none;
+}
+
+
 
 /* footer */
 .footer{
